@@ -1,10 +1,8 @@
-<p align="center">
-  <img src="doc/logo.png" width="60" align="right">
-</p>
+# PyInvK Documentation
 
-# PyInvK
+This is the documentation for PyInvK.
 
-![Alt Text](https://raw.githubusercontent.com/cmower/pyinvk/master/fig8.gif)
+<img src="https://raw.githubusercontent.com/cmower/pyinvk/master/fig8.gif" width="30%" align="right"/>
 
 `PyInvK` is a library that allows you to setup an inverse kinematic problem for arbitrary time-horizon and optional constraints.
 The package interfaces with several open-source and commerical optimization solvers and is built on top of [CasADi](https://web.casadi.org/).
@@ -21,8 +19,6 @@ Depending on the problem class you can interface with a number of solvers:
 
 New interfaces can be added by implementing a class that inherits from `Solver` in [`solvers.py`](https://github.com/cmower/pyinvk/blob/master/pyinvk/solver.py).
 
-See the [examples](https://github.com/cmower/pyinvk/tree/master/example).
-
 # Install
 
 ## Pip
@@ -37,7 +33,3 @@ pip install pyinvk
 2. `$ cd pyinvk`
 3. `$ pip install .`
 
-# Build documentation
-
-1. `cd doc/`
-2. `doxygen`
